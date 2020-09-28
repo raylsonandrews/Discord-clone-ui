@@ -10,6 +10,7 @@ import {
 const ServerList: React.FC = () => {
   return (
     <Container>
+        <p>Discord</p>
         <ServerButton isHome/>
 
         <Separator />

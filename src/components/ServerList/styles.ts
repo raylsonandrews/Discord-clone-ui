@@ -16,6 +16,16 @@ export const Container = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+
+  > p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-weight: bold;
+        color: var(--senary);
+        padding-bottom: 10px;
+  }
 `;
 
 export const Separator = styled.div`

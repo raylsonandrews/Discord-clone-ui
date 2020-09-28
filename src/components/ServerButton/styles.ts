@@ -20,6 +20,8 @@ export const Button = styled.button<Props>`
     position: relative;
     cursor: pointer;
 
+    transition: border-radius .2s, background-color .2s;
+
     > img {
         width: 24px;
         height: 24px;
@@ -61,11 +63,11 @@ export const Button = styled.button<Props>`
 
         content: '${(props) =>
          props.mentions && props.mentions}';
-         display: ${(props) =>
+         display ${(props) =>
          props.mentions && props.mentions > 0 ? 'inline' : 'none'};
     }
 
-    transition: border-radius .2s, background-color .2s;
+   
 
     &.active, &:hover {
         border-radius: 16px;
